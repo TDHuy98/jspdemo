@@ -75,7 +75,7 @@
 
 <%--</head>--%>
 <jsp:include page="/WEB-INF/common/head.jsp">
-    <jsp:param name="header" value=""/>
+    <jsp:param name="head" value=""/>
 </jsp:include>
 <jsp:include page='/WEB-INF/common/header.jsp'>
     <jsp:param name="header" value=""/>
