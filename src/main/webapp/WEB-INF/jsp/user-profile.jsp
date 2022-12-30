@@ -48,7 +48,9 @@
 
     <!-- Template Main CSS File -->
     <link href="resource/assets/css/style.css" rel="stylesheet">
-</head>
+</head<jsp:include page="WEB-INF/common/head.jsp">
+    <jsp:param name="head" value=""/>
+</jsp:include>
 
 
 <body>
