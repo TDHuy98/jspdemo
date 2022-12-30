@@ -1,2 +1,4 @@
-package com.jspspring.jspdemo.repository;public class ProductRepositoryImpl {
+package com.jspspring.jspdemo.repository;
+
+public class ProductRepository {
 }

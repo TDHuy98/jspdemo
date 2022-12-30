@@ -2,7 +2,7 @@ package com.jspspring.jspdemo.entity;
 
 
 
-public class Product {
+public class Book {
     private String isbn;
     private String name;
     private String author;

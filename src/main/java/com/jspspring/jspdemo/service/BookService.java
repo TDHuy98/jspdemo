@@ -1,10 +1,10 @@
 package com.jspspring.jspdemo.service;
 
-import com.jspspring.jspdemo.entity.Product;
+import com.jspspring.jspdemo.entity.Book;
 
 import java.util.Collection;
 
-public interface ProductService {
-    Collection<Product> getBooks();
-    Product addBook(Product product);
+public interface BookService {
+    Collection<Book> getBooks();
+    Book addBook(Book book);
 }

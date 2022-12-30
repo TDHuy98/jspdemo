@@ -1,24 +1,24 @@
 package com.jspspring.jspdemo.service;
 
-import com.jspspring.jspdemo.entity.Product;
+import com.jspspring.jspdemo.entity.Book;
 import org.springframework.stereotype.Service;
 
 import java.util.Collection;
 
 @Service
-public class ProductServiceImpl implements ProductService {
+public class BookServiceImpl implements BookService {
 
 //    private final BookRepository bookRepository;
 
     // constructors, other override methods
 
     @Override
-    public Collection<Product> getBooks() {
+    public Collection<Book> getBooks() {
         return null;
     }
 
     @Override
-    public Product addBook(Product product) {
+    public Book addBook(Book book) {
 //        final Optional<BookData> existingBook = bookRepository.findById(book.getIsbn());
 //        if (existingBook.isPresent()) {
 //            throw new DuplicateBookException(book);
@@ -26,7 +26,7 @@ public class ProductServiceImpl implements ProductService {
 //
 //        final BookData savedBook = bookRepository.add(convertBook(book));
 //        return convertBookData(savedBook);
-        return product;
+        return book;
     }
 
     // conversion logic

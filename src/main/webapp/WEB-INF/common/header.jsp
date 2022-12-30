@@ -11,33 +11,73 @@
 <html lang="en">
 
 <head>
-  <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Tran Huy Media Mart</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
+    <title>EShopper</title>
+    <meta content="" name="description">
+    <meta content="" name="keywords">
 
-  <!-- Favicons -->
-  <link href="resource/assets/img/favicon.png" rel="icon">
-  <link href="resource/assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+    <!-- Favicons -->
+    <link href="resource/assets/img/favicon.png" rel="icon">
+    <link href="resource/assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
-  <!-- Google Fonts -->
-  <link href="https://fonts.gstatic.com" rel="preconnect">
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
-        rel="stylesheet">
+    <!-- Google Fonts -->
+    <link href="https://fonts.gstatic.com" rel="preconnect">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+          rel="stylesheet">
 
-  <!-- Vendor CSS Files -->
-  <link href="resource/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="resource/assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="resource/assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-  <link href="resource/assets/vendor/quill/quill.snow.css" rel="stylesheet">
-  <link href="resource/assets/vendor/quill/quill.bubble.css" rel="stylesheet">
-  <link href="resource/assets/vendor/remixicon/remixicon.css" rel="stylesheet">
-  <link href="resource/assets/vendor/simple-datatables/style.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
-  <!-- Template Main CSS File -->
-  <link href="resource/assets/css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.3/font/bootstrap-icons.css"
+          integrity="sha512-c0+vSv9tnGS4fzwTIBFPcdCZ0QwP+aTePvZeAJkYpbj67KvQ5+VrJjDh3lil48LILJxhICQf66dQ8t/BJyOo/g=="
+          crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <%--    <link href="resource/assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">--%>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/boxicons/2.1.4/css/boxicons.min.css"
+          integrity="sha512-cn16Qw8mzTBKpu08X0fwhTSv02kK/FojjNLz0bwp2xJ4H+yalwzXKFw/5cLzuBZCxGWIA+95X4skzvo8STNtSg=="
+          crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <%--    <link href="resource/assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">--%>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/quill/1.3.7/quill.snow.css"
+          integrity="sha512-XMxqcAfuPHOh2Kz0Z3oDynUcLgyKP6B1NCKUTxyVbM02u1ZrygDcLddKw7KpN/SGmdw8raHbKgaIHP7+bEfGYw=="
+          crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <%--    <link href="resource/assets/vendor/quill/quill.snow.css" rel="stylesheet">--%>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/quill/1.3.7/quill.bubble.css"
+          integrity="sha512-mLecVYo2QWbbYIF2u/ppRT91u615n044kBhrGzqbKQRRQxBUj8BR5b+z9qQsUNyWVYr8Z+c/TISuI7cnbpqpWg=="
+          crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <%--    <link href="resource/assets/vendor/quill/quill.bubble.css" rel="stylesheet">--%>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css" rel="stylesheet">
+
+    <%--    <link href="resource/assets/vendor/remixicon/remixicon.css" rel="stylesheet">--%>
+
+    <link href="https://cdn.jsdelivr.net/npm/simple-datatables@latest/dist/style.css" rel="stylesheet" type="text/css">
+    <!--Vendor JS file-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/apexcharts/3.36.3/apexcharts.min.js"
+            integrity="sha512-sa449wQ9TM6SvZV7TK7Zx/SjVR6bc7lR8tRz1Ar4/R6X2jOLaFln/9C+6Ak2OkAKZ/xBAKJ94dQMeYa0JT1RLg=="
+            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/js/bootstrap.bundle.min.js"
+            integrity="sha512-i9cEfJwUwViEPFKdC1enz4ZRGBj8YQo6QByFTF92YXHi7waCqyexvRD75S5NVTsSiTv7rKWqG9Y5eFxmRsOn0A=="
+            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.1.1/chart.min.js"
+            integrity="sha512-MC1YbhseV2uYKljGJb7icPOjzF2k6mihfApPyPhEAo3NsLUW0bpgtL4xYWK1B+1OuSrUkfOTfhxrRKCz/Jp3rQ=="
+            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/echarts/5.4.1/echarts.min.js"
+            integrity="sha512-OTbGFYPLe3jhy4bUwbB8nls0TFgz10kn0TLkmyA+l3FyivDs31zsXCjOis7YGDtE2Jsy0+fzW+3/OVoPVujPmQ=="
+            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/quill/1.3.7/quill.min.js"
+            integrity="sha512-P2W2rr8ikUPfa31PLBo5bcBQrsa+TNj8jiKadtaIrHQGMo6hQM6RdPjQYxlNguwHz8AwSQ28VkBK6kHBLgd/8g=="
+            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/simple-datatables@latest" type="text/javascript"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tinymce/6.3.1/tinymce.min.js"
+            integrity="sha512-eV68QXP3t5Jbsf18jfqT8xclEJSGvSK5uClUuqayUbF5IRK8e2/VSXIFHzEoBnNcvLBkHngnnd3CY7AFpUhF7w=="
+            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/valid.js/1.2.5/validate.js"
+            integrity="sha512-20uWmXlcs85IacabeDkksf23YH71H3Sgsf3S63l+8gt8bRB3OM0JxnheaqbIJfP04ZdJa4l5F5HtLm8zuT8N9Q=="
+            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- Template Main CSS File -->
+    <link href="resource/assets/css/style.css" rel="stylesheet">
 </head>
 
 <body>
@@ -45,554 +85,253 @@
 <!-- ======= Header ======= -->
 <header id="header" class="header fixed-top d-flex align-items-center">
 
-  <div class="d-flex align-items-center justify-content-between">
-    <i class="bi bi-list toggle-sidebar-btn"></i>
-    <a href="/" class="d-flex align-items-center">
-      <span class="d-none d-lg-block">Tran Huy Media Mart</span>
-    </a>
-  </div><!-- End Logo -->
-
-  <div class="search-bar">
-    <form class="search-form d-flex align-items-center" method="POST" action="#">
-      <input type="text" name="query" placeholder="Search" title="Enter search keyword">
-      <button type="submit" title="Search"><i class="bi bi-search"></i></button>
-    </form>
-  </div><!-- End Search Bar -->
-
-  <nav class="header-nav ms-auto">
-    <ul class="d-flex align-items-center">
-
-      <li class="nav-item d-block d-lg-none">
-        <a class="nav-link nav-icon search-bar-toggle " href="#">
-          <i class="bi bi-search"></i>
+    <div class="d-flex align-items-center justify-content-between">
+        <i class="bi bi-list toggle-sidebar-btn"></i>
+        <a href="${pageContext.request.contextPath}/" class="text-decoration-none d-flex align-items-center">
+            <h1 class="m-0 display-5 font-weight-semi-bold"><span
+                    class="text-primary font-weight-bold border px-3 mr-1">E</span>Shopper</h1>
         </a>
-      </li><!-- End Search Icon-->
+    </div><!-- End Logo -->
 
-      <li class="nav-item dropdown">
+    <div class="search-bar">
+        <form class="search-form d-flex align-items-center" method="POST" action="#">
+            <input type="text" name="query" placeholder="Search" title="Enter search keyword">
+            <button type="submit" title="Search"><i class="bi bi-search"></i></button>
+        </form>
+    </div><!-- End Search Bar -->
 
-        <a class="nav-link nav-icon" href="#cart" data-bs-toggle="dropdown">
-          <i class="bi bi-cart"></i>
-          <span class="badge bg-primary badge-number">4</span>
-        </a><!-- End Cart Icon -->
+    <nav class="header-nav ms-auto">
+        <ul class="d-flex align-items-center">
 
-        <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow notifications">
-          <li class="dropdown-header">
-            Bạn đang có 4 sản phẩm trong giỏ hàng
-            <a href="#"><span class="badge rounded-pill bg-primary p-2 ms-2">View all</span></a>
-          </li>
-          <li>
-            <hr class="dropdown-divider">
-          </li>
+            <li class="nav-item d-block d-lg-none">
+                <a class="nav-link nav-icon search-bar-toggle " href="#">
+                    <i class="bi bi-search"></i>
+                </a>
+            </li><!-- End Search Icon-->
 
-          <li class="notification-item">
-            <i class="bi bi-exclamation-circle text-warning"></i>
-            <div>
-              <h4>Lorem Ipsum</h4>
-              <p>Quae dolorem earum veritatis oditseno</p>
-              <p>30 min. ago</p>
-            </div>
-          </li>
+            <li class="nav-item">
 
-          <li>
-            <hr class="dropdown-divider">
-          </li>
+                <a class="nav-link nav-icon" href="${pageContext.request.contextPath}/cartdetail">
+                    <i class="bi bi-cart"></i>
+                    <span class="badge bg-primary badge-number">4</span>
+                </a><!-- End Cart Icon -->
 
-          <li class="notification-item">
-            <i class="bi bi-x-circle text-danger"></i>
-            <div>
-              <h4>Atque rerum nesciunt</h4>
-              <p>Quae dolorem earum veritatis oditseno</p>
-              <p>1 hr. ago</p>
-            </div>
-          </li>
+                <%--                <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow notifications">--%>
+                <%--                    <li class="dropdown-header">--%>
+                <%--                        Bạn đang có 4 sản phẩm trong giỏ hàng--%>
+                <%--                        <a href="#"><span class="badge rounded-pill bg-primary p-2 ms-2">View all</span></a>--%>
+                <%--                    </li>--%>
+                <%--                    <li>--%>
+                <%--                        <hr class="dropdown-divider">--%>
+                <%--                    </li>--%>
 
-          <li>
-            <hr class="dropdown-divider">
-          </li>
+                <%--                    <li class="notification-item">--%>
+                <%--                        <i class="bi bi-exclamation-circle text-warning"></i>--%>
+                <%--                        <div>--%>
+                <%--                            <h4>Lorem Ipsum</h4>--%>
+                <%--                            <p>Quae dolorem earum veritatis oditseno</p>--%>
+                <%--                            <p>30 min. ago</p>--%>
+                <%--                        </div>--%>
+                <%--                    </li>--%>
 
-          <li class="notification-item">
-            <i class="bi bi-check-circle text-success"></i>
-            <div>
-              <h4>Sit rerum fuga</h4>
-              <p>Quae dolorem earum veritatis oditseno</p>
-              <p>2 hrs. ago</p>
-            </div>
-          </li>
+                <%--                    <li>--%>
+                <%--                        <hr class="dropdown-divider">--%>
+                <%--                    </li>--%>
 
-          <li>
-            <hr class="dropdown-divider">
-          </li>
+                <%--                    <li class="notification-item">--%>
+                <%--                        <i class="bi bi-x-circle text-danger"></i>--%>
+                <%--                        <div>--%>
+                <%--                            <h4>Atque rerum nesciunt</h4>--%>
+                <%--                            <p>Quae dolorem earum veritatis oditseno</p>--%>
+                <%--                            <p>1 hr. ago</p>--%>
+                <%--                        </div>--%>
+                <%--                    </li>--%>
 
-          <li class="notification-item">
-            <i class="bi bi-info-circle text-primary"></i>
-            <div>
-              <h4>Dicta reprehenderit</h4>
-              <p>Quae dolorem earum veritatis oditseno</p>
-              <p>4 hrs. ago</p>
-            </div>
-          </li>
+                <%--                    <li>--%>
+                <%--                        <hr class="dropdown-divider">--%>
+                <%--                    </li>--%>
 
-          <li>
-            <hr class="dropdown-divider">
-          </li>
-          <li class="dropdown-footer">
-            <a href="#">Show all notifications</a>
-          </li>
+                <%--                    <li class="notification-item">--%>
+                <%--                        <i class="bi bi-check-circle text-success"></i>--%>
+                <%--                        <div>--%>
+                <%--                            <h4>Sit rerum fuga</h4>--%>
+                <%--                            <p>Quae dolorem earum veritatis oditseno</p>--%>
+                <%--                            <p>2 hrs. ago</p>--%>
+                <%--                        </div>--%>
+                <%--                    </li>--%>
 
-        </ul><!-- End Cart Dropdown Items -->
+                <%--                    <li>--%>
+                <%--                        <hr class="dropdown-divider">--%>
+                <%--                    </li>--%>
 
-      </li><!-- End Cart Nav -->
+                <%--                    <li class="notification-item">--%>
+                <%--                        <i class="bi bi-info-circle text-primary"></i>--%>
+                <%--                        <div>--%>
+                <%--                            <h4>Dicta reprehenderit</h4>--%>
+                <%--                            <p>Quae dolorem earum veritatis oditseno</p>--%>
+                <%--                            <p>4 hrs. ago</p>--%>
+                <%--                        </div>--%>
+                <%--                    </li>--%>
 
-      <%--            <li class="nav-item dropdown">--%>
+                <%--                    <li>--%>
+                <%--                        <hr class="dropdown-divider">--%>
+                <%--                    </li>--%>
+                <%--                    <li class="dropdown-footer">--%>
+                <%--                        <a href="#">Show all notifications</a>--%>
+                <%--                    </li>--%>
 
-      <%--                <a class="nav-link nav-icon" href="#" data-bs-toggle="dropdown">--%>
-      <%--                    <i class="bi bi-chat-left-text"></i>--%>
-      <%--                    <span class="badge bg-success badge-number">3</span>--%>
-      <%--                </a><!-- End Messages Icon -->--%>
+                <%--                </ul><!-- End Cart Dropdown Items -->--%>
 
-      <%--                <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow messages">--%>
-      <%--                    <li class="dropdown-header">--%>
-      <%--                        You have 3 new messages--%>
-      <%--                        <a href="#"><span class="badge rounded-pill bg-primary p-2 ms-2">View all</span></a>--%>
-      <%--                    </li>--%>
-      <%--                    <li>--%>
-      <%--                        <hr class="dropdown-divider">--%>
-      <%--                    </li>--%>
+            </li><!-- End Cart Nav -->
 
-      <%--                    <li class="message-item">--%>
-      <%--                        <a href="#">--%>
-      <%--                            <img src="resource/assets/img/messages-1.jpg" alt="" class="rounded-circle">--%>
-      <%--                            <div>--%>
-      <%--                                <h4>Maria Hudson</h4>--%>
-      <%--                                <p>Velit asperiores et ducimus soluta repudiandae labore officia est ut...</p>--%>
-      <%--                                <p>4 hrs. ago</p>--%>
-      <%--                            </div>--%>
-      <%--                        </a>--%>
-      <%--                    </li>--%>
-      <%--                    <li>--%>
-      <%--                        <hr class="dropdown-divider">--%>
-      <%--                    </li>--%>
+            <%--            <li class="nav-item dropdown">--%>
 
-      <%--                    <li class="message-item">--%>
-      <%--                        <a href="#">--%>
-      <%--                            <img src="resource/assets/img/messages-2.jpg" alt="" class="rounded-circle">--%>
-      <%--                            <div>--%>
-      <%--                                <h4>Anna Nelson</h4>--%>
-      <%--                                <p>Velit asperiores et ducimus soluta repudiandae labore officia est ut...</p>--%>
-      <%--                                <p>6 hrs. ago</p>--%>
-      <%--                            </div>--%>
-      <%--                        </a>--%>
-      <%--                    </li>--%>
-      <%--                    <li>--%>
-      <%--                        <hr class="dropdown-divider">--%>
-      <%--                    </li>--%>
+            <%--                <a class="nav-link nav-icon" href="#" data-bs-toggle="dropdown">--%>
+            <%--                    <i class="bi bi-chat-left-text"></i>--%>
+            <%--                    <span class="badge bg-success badge-number">3</span>--%>
+            <%--                </a><!-- End Messages Icon -->--%>
 
-      <%--                    <li class="message-item">--%>
-      <%--                        <a href="#">--%>
-      <%--                            <img src="resource/assets/img/messages-3.jpg" alt="" class="rounded-circle">--%>
-      <%--                            <div>--%>
-      <%--                                <h4>David Muldon</h4>--%>
-      <%--                                <p>Velit asperiores et ducimus soluta repudiandae labore officia est ut...</p>--%>
-      <%--                                <p>8 hrs. ago</p>--%>
-      <%--                            </div>--%>
-      <%--                        </a>--%>
-      <%--                    </li>--%>
-      <%--                    <li>--%>
-      <%--                        <hr class="dropdown-divider">--%>
-      <%--                    </li>--%>
+            <%--                <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow messages">--%>
+            <%--                    <li class="dropdown-header">--%>
+            <%--                        You have 3 new messages--%>
+            <%--                        <a href="#"><span class="badge rounded-pill bg-primary p-2 ms-2">View all</span></a>--%>
+            <%--                    </li>--%>
+            <%--                    <li>--%>
+            <%--                        <hr class="dropdown-divider">--%>
+            <%--                    </li>--%>
 
-      <%--                    <li class="dropdown-footer">--%>
-      <%--                        <a href="#">Show all messages</a>--%>
-      <%--                    </li>--%>
+            <%--                    <li class="message-item">--%>
+            <%--                        <a href="#">--%>
+            <%--                            <img src="resource/assets/img/messages-1.jpg" alt="" class="rounded-circle">--%>
+            <%--                            <div>--%>
+            <%--                                <h4>Maria Hudson</h4>--%>
+            <%--                                <p>Velit asperiores et ducimus soluta repudiandae labore officia est ut...</p>--%>
+            <%--                                <p>4 hrs. ago</p>--%>
+            <%--                            </div>--%>
+            <%--                        </a>--%>
+            <%--                    </li>--%>
+            <%--                    <li>--%>
+            <%--                        <hr class="dropdown-divider">--%>
+            <%--                    </li>--%>
 
-      <%--                </ul><!-- End Messages Dropdown Items -->--%>
+            <%--                    <li class="message-item">--%>
+            <%--                        <a href="#">--%>
+            <%--                            <img src="resource/assets/img/messages-2.jpg" alt="" class="rounded-circle">--%>
+            <%--                            <div>--%>
+            <%--                                <h4>Anna Nelson</h4>--%>
+            <%--                                <p>Velit asperiores et ducimus soluta repudiandae labore officia est ut...</p>--%>
+            <%--                                <p>6 hrs. ago</p>--%>
+            <%--                            </div>--%>
+            <%--                        </a>--%>
+            <%--                    </li>--%>
+            <%--                    <li>--%>
+            <%--                        <hr class="dropdown-divider">--%>
+            <%--                    </li>--%>
 
-      <%--            </li><!-- End Messages Nav -->--%>
+            <%--                    <li class="message-item">--%>
+            <%--                        <a href="#">--%>
+            <%--                            <img src="resource/assets/img/messages-3.jpg" alt="" class="rounded-circle">--%>
+            <%--                            <div>--%>
+            <%--                                <h4>David Muldon</h4>--%>
+            <%--                                <p>Velit asperiores et ducimus soluta repudiandae labore officia est ut...</p>--%>
+            <%--                                <p>8 hrs. ago</p>--%>
+            <%--                            </div>--%>
+            <%--                        </a>--%>
+            <%--                    </li>--%>
+            <%--                    <li>--%>
+            <%--                        <hr class="dropdown-divider">--%>
+            <%--                    </li>--%>
 
-      <li class="nav-item dropdown pe-3">
+            <%--                    <li class="dropdown-footer">--%>
+            <%--                        <a href="#">Show all messages</a>--%>
+            <%--                    </li>--%>
 
-        <a class="nav-link nav-profile d-flex align-items-center pe-0" href="#" data-bs-toggle="dropdown">
-          <img src="resource/assets/img/blank-user.png" alt="Profile" class="rounded-circle">
-          <span class="d-none d-md-block dropdown-toggle ps-2">User's name</span>
-        </a><!-- End Profile Iamge Icon -->
+            <%--                </ul><!-- End Messages Dropdown Items -->--%>
 
-        <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow profile">
-          <li class="dropdown-header">
-            <h6>User's name</h6>
-            <%--                        <span>Web Designer</span>--%>
-          </li>
-          <li>
-            <hr class="dropdown-divider">
-          </li>
+            <%--            </li><!-- End Messages Nav -->--%>
 
-          <li>
-            <a class="dropdown-item d-flex align-items-center" href="#users-profile.html">
-              <i class="bi bi-person"></i>
-              <span>My Profile</span>
-            </a>
-          </li>
-          <li>
-            <hr class="dropdown-divider">
-          </li>
+            <li class="nav-item dropdown pe-3">
+                <a id="loginregister" class="nav-link nav-form align-item-center" data-bs-toggle="dropdown">
+                    <span>Account</span>
+                </a>
+                <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow">
+                    <li class="dropdown-item d-flex align-items-center" href="#login">
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                data-bs-target="#loginModal">
+                            Login
+                        </button>
 
-          <li>
-            <a class="dropdown-item d-flex align-items-center" href="#users-profile.html">
-              <i class="bi bi-gear"></i>
-              <span>Account Settings</span>
-            </a>
-          </li>
-          <li>
-            <hr class="dropdown-divider">
-          </li>
+                        <!-- Modal -->
 
-          <li>
-            <a class="dropdown-item d-flex align-items-center" href="#pages-faq.html">
-              <i class="bi bi-question-circle"></i>
-              <span>Need Help?</span>
-            </a>
-          </li>
-          <li>
-            <hr class="dropdown-divider">
-          </li>
+                    </li>
+                    <li class="dropdown-item d-flex align-items-center" href="#register">
+                        <span>Register</span>
+                    </li>
+                </ul>
+                <a id="userprofile" class="nav-link nav-profile d-flex align-items-center pe-0 visually-hidden" href="#"
+                   data-bs-toggle="dropdown">
+                    <img src="resource/assets/img/blank-user.png" alt="Profile" class="rounded-circle">
+                    <span class="d-none d-md-block dropdown-toggle ps-2">Account</span>
+                </a><!-- End Profile Iamge Icon -->
 
-          <li>
-            <a class="dropdown-item d-flex align-items-center" href="#">
-              <i class="bi bi-box-arrow-right"></i>
-              <span>Sign Out</span>
-            </a>
-          </li>
+                <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow profile">
+                    <li class="dropdown-header">
+                        <h6>User's name</h6>
+                        <%--                        <span>Web Designer</span>--%>
+                    </li>
+                    <li>
+                        <hr class="dropdown-divider">
+                    </li>
 
-        </ul><!-- End Profile Dropdown Items -->
-      </li><!-- End Profile Nav -->
+                    <li>
+                        <a class="dropdown-item d-flex align-items-center"
+                           href="${pageContext.request.contextPath}/userprofile">
+                            <i class="bi bi-person"></i>
+                            <span>My Profile</span>
+                        </a>
+                    </li>
+                    <li>
+                        <hr class="dropdown-divider">
+                    </li>
 
-    </ul>
-  </nav><!-- End Icons Navigation -->
+                    <li>
+                        <a class="dropdown-item d-flex align-items-center" href="#users-profile.html">
+                            <i class="bi bi-gear"></i>
+                            <span>Account Settings</span>
+                        </a>
+                    </li>
+                    <li>
+                        <hr class="dropdown-divider">
+                    </li>
+
+                    <li>
+                        <a class="dropdown-item d-flex align-items-center" href="#pages-faq.html">
+                            <i class="bi bi-question-circle"></i>
+                            <span>Need Help?</span>
+                        </a>
+                    </li>
+                    <li>
+                        <hr class="dropdown-divider">
+                    </li>
+
+                    <li>
+                        <a class="dropdown-item d-flex align-items-center" href="#">
+                            <i class="bi bi-box-arrow-right"></i>
+                            <span>Sign Out</span>
+                        </a>
+                    </li>
+
+                </ul><!-- End Profile Dropdown Items -->
+            </li><!-- End Profile Nav -->
+
+        </ul>
+    </nav><!-- End Icons Navigation -->
 
 </header><!-- End Header -->
 
-<!-- ======= Sidebar ======= -->
-<aside id="sidebar" class="sidebar">
-
-  <ul class="sidebar-nav" id="sidebar-nav">
-
-    <li class="nav-item">
-      <a class="nav-link " href="/">
-        <i class="bi bi-house"></i>
-        <span>Trang chủ</span>
-      </a>
-    </li><!-- End Dashboard Nav -->
-    <li class="nav-item">
-      <a class="nav-link " href="/viewProducts">
-        <i class="bi bi-grid"></i>
-        <span>Tất cả sản phẩm</span>
-      </a>
-    </li><!-- End Dashboard Nav -->
-
-    <li class="nav-item">
-      <a class="nav-link collapsed" data-bs-target="#components-nav" data-bs-toggle="collapse" href="#">
-        <i class="bi bi-laptop"></i><span>Laptop</span><i class="bi bi-chevron-down ms-auto"></i>
-      </a>
-      <ul id="components-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
-        <li>
-          <a href="#Laptop-Acer.html">
-            <i class="bi bi-circle"></i><span>Acer</span>
-          </a>
-        </li>
-        <li>
-          <a href="#Laptop-Asus.html">
-            <i class="bi bi-circle"></i><span>Asus</span>
-          </a>
-        </li>
-        <li>
-          <a href="#Laptop-Dell.html">
-            <i class="bi bi-circle"></i><span>Dell</span>
-          </a>
-        </li>
-        <li>
-          <a href="Laptop-MSI.html">
-            <i class="bi bi-circle"></i><span>MSI</span>
-          </a>
-        </li>
-        <li>
-          <a href="#Laptop-Lenovo.html">
-            <i class="bi bi-circle"></i><span>Lenovo</span>
-          </a>
-        </li>
-        <%--                <li>--%>
-        <%--                    <a href="components-cards.html">--%>
-        <%--                        <i class="bi bi-circle"></i><span>Cards</span>--%>
-        <%--                    </a>--%>
-        <%--                </li>--%>
-        <%--                <li>--%>
-        <%--                    <a href="components-carousel.html">--%>
-        <%--                        <i class="bi bi-circle"></i><span>Carousel</span>--%>
-        <%--                    </a>--%>
-        <%--                </li>--%>
-        <%--                <li>--%>
-        <%--                    <a href="components-list-group.html">--%>
-        <%--                        <i class="bi bi-circle"></i><span>List group</span>--%>
-        <%--                    </a>--%>
-        <%--                </li>--%>
-        <%--                <li>--%>
-        <%--                    <a href="components-modal.html">--%>
-        <%--                        <i class="bi bi-circle"></i><span>Modal</span>--%>
-        <%--                    </a>--%>
-        <%--                </li>--%>
-        <%--                <li>--%>
-        <%--                    <a href="components-tabs.html">--%>
-        <%--                        <i class="bi bi-circle"></i><span>Tabs</span>--%>
-        <%--                    </a>--%>
-        <%--                </li>--%>
-        <%--                <li>--%>
-        <%--                    <a href="components-pagination.html">--%>
-        <%--                        <i class="bi bi-circle"></i><span>Pagination</span>--%>
-        <%--                    </a>--%>
-        <%--                </li>--%>
-        <%--                <li>--%>
-        <%--                    <a href="components-progress.html">--%>
-        <%--                        <i class="bi bi-circle"></i><span>Progress</span>--%>
-        <%--                    </a>--%>
-        <%--                </li>--%>
-        <%--                <li>--%>
-        <%--                    <a href="components-spinners.html">--%>
-        <%--                        <i class="bi bi-circle"></i><span>Spinners</span>--%>
-        <%--                    </a>--%>
-        <%--                </li>--%>
-        <%--                <li>--%>
-        <%--                    <a href="components-tooltips.html">--%>
-        <%--                        <i class="bi bi-circle"></i><span>Tooltips</span>--%>
-        <%--                    </a>--%>
-        <%--                </li>--%>
-      </ul>
-    </li><!-- End Components Nav -->
-
-    <li class="nav-item">
-      <a class="nav-link collapsed" data-bs-target="#mobile-nav" data-bs-toggle="collapse" href="#">
-        <i class="bi bi-phone"></i><span>Mobile</span><i class="bi bi-chevron-down ms-auto"></i>
-      </a>
-      <ul id="mobile-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
-        <li>
-          <a href="#Apple.html">
-            <i class="bi bi-circle"></i><span>Apple</span>
-          </a>
-        </li>
-        <li>
-          <a href="#Asus.html">
-            <i class="bi bi-circle"></i><span>Asus</span>
-          </a>
-        </li>
-        <li>
-          <a href="#Google.html">
-            <i class="bi bi-circle"></i><span>Google</span>
-          </a>
-        </li>
-        <li>
-          <a href="#Oppo.html">
-            <i class="bi bi-circle"></i><span>Oppo</span>
-          </a>
-        </li>
-        <li>
-          <a href="#Nokia.html">
-            <i class="bi bi-circle"></i><span>Nokia</span>
-          </a>
-        </li>
-        <li>
-          <a href="#SamSung.html">
-            <i class="bi bi-circle"></i><span>SamSung</span>
-          </a>
-        </li>
-        <li>
-          <a href="#Realme.html">
-            <i class="bi bi-circle"></i><span>Realme</span>
-          </a>
-        </li>
-        <li>
-          <a href="#Xiaomi.html">
-            <i class="bi bi-circle"></i><span>Xiaomi</span>
-          </a>
-        </li>
-
-      </ul>
-    </li><!-- End Forms Nav -->
-    <li class="nav-item">
-      <a class="nav-link collapsed" data-bs-target="#tablet-nav" data-bs-toggle="collapse" href="#">
-        <i class="bi bi-tablet-fill"></i><span>Tablet</span><i class="bi bi-chevron-down ms-auto"></i>
-      </a>
-      <ul id="tablet-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
-        <li>
-          <a href="#forms-elements.html">
-            <i class="bi bi-circle"></i><span>Apple</span>
-          </a>
-        </li>
-        <li>
-          <a href="#forms-layouts.html">
-            <i class="bi bi-circle"></i><span>Asus</span>
-          </a>
-        </li>
-        <li>
-          <a href="#forms-editors.html">
-            <i class="bi bi-circle"></i><span>Google</span>
-          </a>
-        </li>
-        <li>
-          <a href="#forms-editors.html">
-            <i class="bi bi-circle"></i><span>Oppo</span>
-          </a>
-        </li>
-        <li>
-          <a href="#forms-editors.html">
-            <i class="bi bi-circle"></i><span>Nokia</span>
-          </a>
-        </li>
-        <li>
-          <a href="#forms-editors.html">
-            <i class="bi bi-circle"></i><span>SamSung</span>
-          </a>
-        </li>
-        <li>
-          <a href="#forms-editors.html">
-            <i class="bi bi-circle"></i><span>Realme</span>
-          </a>
-        </li>
-        <li>
-          <a href="#forms-editors.html">
-            <i class="bi bi-circle"></i><span>Xiaomi</span>
-          </a>
-        </li>
-
-      </ul>
-    </li><!-- End Forms Nav -->
-    <p>
-      <%--        <li class="nav-item">--%>
-      <%--            <a class="nav-link collapsed" data-bs-target="#tables-nav" data-bs-toggle="collapse" href="#">--%>
-      <%--                <i class="bi bi-layout-text-window-reverse"></i><span>Tables</span><i--%>
-      <%--                    class="bi bi-chevron-down ms-auto"></i>--%>
-      <%--            </a>--%>
-      <%--            <ul id="tables-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">--%>
-      <%--                <li>--%>
-      <%--                    <a href="tables-general.html">--%>
-      <%--                        <i class="bi bi-circle"></i><span>General Tables</span>--%>
-      <%--                    </a>--%>
-      <%--                </li>--%>
-      <%--                <li>--%>
-      <%--                    <a href="tables-data.html">--%>
-      <%--                        <i class="bi bi-circle"></i><span>Data Tables</span>--%>
-      <%--                    </a>--%>
-      <%--                </li>--%>
-      <%--            </ul>--%>
-      <%--        </li><!-- End Tables Nav -->--%>
-
-      <%--        <li class="nav-item">--%>
-      <%--            <a class="nav-link collapsed" data-bs-target="#charts-nav" data-bs-toggle="collapse" href="#">--%>
-      <%--                <i class="bi bi-bar-chart"></i><span>Charts</span><i class="bi bi-chevron-down ms-auto"></i>--%>
-      <%--            </a>--%>
-      <%--            <ul id="charts-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">--%>
-      <%--                <li>--%>
-      <%--                    <a href="charts-chartjs.html">--%>
-      <%--                        <i class="bi bi-circle"></i><span>Chart.js</span>--%>
-      <%--                    </a>--%>
-      <%--                </li>--%>
-      <%--                <li>--%>
-      <%--                    <a href="charts-apexcharts.html">--%>
-      <%--                        <i class="bi bi-circle"></i><span>ApexCharts</span>--%>
-      <%--                    </a>--%>
-      <%--                </li>--%>
-      <%--                <li>--%>
-      <%--                    <a href="charts-echarts.html">--%>
-      <%--                        <i class="bi bi-circle"></i><span>ECharts</span>--%>
-      <%--                    </a>--%>
-      <%--                </li>--%>
-      <%--            </ul>--%>
-      <%--        </li><!-- End Charts Nav -->--%>
-
-      <%--        <li class="nav-item">--%>
-      <%--            <a class="nav-link collapsed" data-bs-target="#icons-nav" data-bs-toggle="collapse" href="#">--%>
-      <%--                <i class="bi bi-gem"></i><span>Icons</span><i class="bi bi-chevron-down ms-auto"></i>--%>
-      <%--            </a>--%>
-      <%--            <ul id="icons-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">--%>
-      <%--                <li>--%>
-      <%--                    <a href="icons-bootstrap.html">--%>
-      <%--                        <i class="bi bi-circle"></i><span>Bootstrap Icons</span>--%>
-      <%--                    </a>--%>
-      <%--                </li>--%>
-      <%--                <li>--%>
-      <%--                    <a href="icons-remix.html">--%>
-      <%--                        <i class="bi bi-circle"></i><span>Remix Icons</span>--%>
-      <%--                    </a>--%>
-      <%--                </li>--%>
-      <%--                <li>--%>
-      <%--                    <a href="icons-boxicons.html">--%>
-      <%--                        <i class="bi bi-circle"></i><span>Boxicons</span>--%>
-      <%--                    </a>--%>
-      <%--                </li>--%>
-      <%--            </ul>--%>
-      <%--        </li><!-- End Icons Nav -->--%>
-
-      <%--        <li class="nav-heading">Pages</li>--%>
-    </p>
-    <li class="nav-item">
-      <a class="nav-link collapsed" href="users-profile.html">
-        <i class="bi bi-person"></i>
-        <span>Profile</span>
-      </a>
-    </li><!-- End Profile Page Nav -->
-
-    <li class="nav-item">
-      <a class="nav-link collapsed" href="pages-faq.html">
-        <i class="bi bi-question-circle"></i>
-        <span>F.A.Q</span>
-      </a>
-    </li><!-- End F.A.Q Page Nav -->
-
-    <li class="nav-item">
-      <a class="nav-link collapsed" href="pages-contact.html">
-        <i class="bi bi-envelope"></i>
-        <span>Contact</span>
-      </a>
-    </li><!-- End Contact Page Nav -->
-
-    <li class="nav-item">
-      <a class="nav-link collapsed" href="pages-register.html">
-        <i class="bi bi-card-list"></i>
-        <span>Register</span>
-      </a>
-    </li><!-- End Register Page Nav -->
-
-    <li class="nav-item">
-      <a class="nav-link collapsed" href="pages-login.html">
-        <i class="bi bi-box-arrow-in-right"></i>
-        <span>Login</span>
-      </a>
-    </li><!-- End Login Page Nav -->
-
-    <li class="nav-item">
-      <a class="nav-link collapsed" href="pages-error-404.html">
-        <i class="bi bi-dash-circle"></i>
-        <span>Error 404</span>
-      </a>
-    </li><!-- End Error 404 Page Nav -->
-
-    <li class="nav-item">
-      <a class="nav-link collapsed" href="pages-blank.html">
-        <i class="bi bi-file-earmark"></i>
-        <span>Blank</span>
-      </a>
-    </li><!-- End Blank Page Nav -->
-
-  </ul>
-
-</aside>
-<script src="resource/assets/vendor/apexcharts/apexcharts.min.js"></script>
-<script src="resource/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-<script src="resource/assets/vendor/chart.js/chart.min.js"></script>
-<script src="resource/assets/vendor/echarts/echarts.min.js"></script>
-<script src="resource/assets/vendor/quill/quill.min.js"></script>
-<script src="resource/assets/vendor/simple-datatables/simple-datatables.js"></script>
-<script src="resource/assets/vendor/tinymce/tinymce.min.js"></script>
-<script src="resource/assets/vendor/php-email-form/validate.js"></script>
 
 <!-- Template Main JS File -->
-<script src="resource/assets/js/main.js"></script>
 
 </body>
 
